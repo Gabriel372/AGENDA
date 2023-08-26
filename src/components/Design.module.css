@@ -1,0 +1,97 @@
+/* .container{
+display: flex;
+flex-direction: row;
+max-width: 700px;
+/* border: 1px solid gray; */
+/* margin: auto;
+} */
+.button{
+display: block;  
+width: 100px;
+align-self: center;
+}
+.form{
+display: flex;
+flex-direction: column; 
+max-width: 200px;  
+align-items: center;
+margin: auto;
+}
+input{
+margin-bottom: 10px; 
+height: 23px; 
+width: 200px;  
+}
+.container{
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 10px;
+max-width: 700px;
+min-height: 400px;
+border: 1px solid gray;
+border-radius: 10px;
+text-align: center;
+background-color: rgb(238, 236, 236);
+}
+ul{
+display: flex;
+/* flex-direction: row;     */
+flex-wrap: wrap;
+text-align: left;
+padding: 0; 
+margin-top: 0; 
+}
+/* .divUl{
+max-width: 712px;    
+} */
+li{    
+list-style: none; 
+border: 1px solid gray;   
+border-bottom: 1px solid gray;
+max-width: 300px;
+min-width: 200px;
+padding: 10px ;
+border-radius: 10px;
+background-color: white;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+p{
+margin-top: 0;    
+margin-bottom: 8px;    
+}
+.done{
+text-decoration: line-through ;
+
+}
+.btnDoneRemove{
+height: 30px;
+width: 40px; 
+margin-right: 10px;
+cursor: pointer;
+}
+.btnSchedule{
+width: 90px;
+margin-bottom: 0; 
+cursor: pointer;
+}
+.btnSchedule:hover{
+background-color: white;
+border: 3px solid rgb(15, 15, 128); 
+border-radius: 3px;  
+width: 95px;
+transition: 0.3s;
+}
+.fillCheck{
+background-color: rgb(179, 231, 179);
+border: 1px solid green;
+border-radius: 4px;
+}
+.iconSchedule{
+width: 28px;
+height: 28px; 
+}
+hr{
+margin: 10px;   
+margin-left: 0;}
